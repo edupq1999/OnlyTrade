@@ -25,7 +25,7 @@ function App() {
           <Route path='/Contacto' element={<Contacto/>} />
           <Route path='/Categorias' element={<Categorias filtro = {filtro}/>} />
           <Route element={<ProtectedRoutes/>} />
-            <Route path='/Producto/:id' element={<ProductoId/>} />
+            <Route path='/ProductoId/:id' element={<ProductoId/>} />
             <Route path='/Perfil' element={<ProductoId/>} />
           <Route/>
         </Routes>

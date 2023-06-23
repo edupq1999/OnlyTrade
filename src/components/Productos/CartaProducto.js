@@ -11,7 +11,7 @@ const CartaProducto = ({producto}) => {
     }
   return (
     <div className='product' onClick={handleClick}>
-        <div class="product_container">
+        <div className="product_container">
             <div className='product_container_header'>
                 <img className='product_img' src={producto.imagen} alt='Imagen del producto'/>
             </div>
@@ -20,11 +20,11 @@ const CartaProducto = ({producto}) => {
                 <span>Precio: <h3>S/.{producto.precio}</h3></span>
             </div>
         </div>
-        <div class="product_buttons">
-            <button class="product_button message">
+        <div className="product_buttons">
+            <button className="product_button message">
                 Contactar
             </button>
-            <button class="product_button buy">
+            <button className="product_button buy">
                 Comprar
             </button>
         </div>

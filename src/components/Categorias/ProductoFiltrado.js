@@ -21,11 +21,11 @@ const ProductoFiltrado = ({producto}) => {
                 <span>Precio: <h3>S/.{producto?.precio}</h3></span>
             </div>
         </div>
-        <div class="product_buttons">
-            <button class="product_button message">
+        <div className="product_buttons">
+            <button className="product_button message">
                 Contactar
             </button>
-            <button class="product_button buy">
+            <button className="product_button buy">
                 Comprar
             </button>
         </div>

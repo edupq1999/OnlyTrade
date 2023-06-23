@@ -26,11 +26,11 @@ const ProductoId = () => {
                 <span>Precio: <h3>S/.{producto?.precio}</h3></span>
             </div>
         </div>
-        <div class="productoId_buttons">
-            <button class="productoId_button message">
+        <div className="productoId_buttons">
+            <button className="productoId_button message">
                 Contactar
             </button>
-            <button class="productoId_button buy">
+            <button className="productoId_button buy">
                 Comprar
             </button>
         </div>

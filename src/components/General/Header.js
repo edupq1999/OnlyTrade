@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
         <div className="header_logoContainer cel">
-            <img src={logo} alt="Logo de OnlyTrade" class="logo_header"/>
+            <img src={logo} alt="Logo de OnlyTrade" className="logo_header"/>
             <div className="header_optionsContainer">
                 <div className="header_searchBar">
                     <svg xmlns="http://www.w3.org/2000/svg" className='searchBar_Icon' viewBox="0 0 24 24">

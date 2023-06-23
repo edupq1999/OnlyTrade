@@ -14,7 +14,6 @@
     height: 215px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
 }
 .product_img{
     display: block;

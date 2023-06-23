@@ -39,3 +39,12 @@
 .productSubasta_container_info{
     padding: 0 10px;
 }
+@media (min-width: 550px){
+    .productSubasta{
+        min-width: 450px;
+    }
+    .productSubasta_container{
+        display: flex;
+        align-items: center;
+    }
+}

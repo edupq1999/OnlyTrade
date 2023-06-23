@@ -19,3 +19,14 @@ nav{
 
     font-size: 14px;
 }
+
+@media (min-width: 550px){
+    nav{
+        height: 60px;
+    }
+    .navList{
+        top: 100px;
+        align-items: baseline;
+        height: 60px;
+    }
+}

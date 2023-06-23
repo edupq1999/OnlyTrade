@@ -28,10 +28,10 @@ console.log(id)
             </div>
         </div>
         <div className="productoId_buttons">
-            <button className="productoId_button message">
+            <button className="productoId_button messageId">
                 Contactar
             </button>
-            <button className="productoId_button buy">
+            <button className="productoId_button buyId">
                 Comprar
             </button>
         </div>

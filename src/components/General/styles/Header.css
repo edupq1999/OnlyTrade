@@ -63,3 +63,45 @@ header{
     width: 33.33%;
     border: 1px solid rgba(184, 184, 184, 0.699);
 }
+@media (min-width: 550px){
+    header{
+        height: 100px;
+    }
+    .header_logoContainer{
+        flex-direction: row;
+        width: 100%;
+        padding: 10px 5%;
+    }
+    .logo_header{
+        width: 10%;
+        min-width: 100px;
+        max-width: 150px;
+    }
+    .header_optionsContainer{
+        flex-direction: row;
+    }
+    .header_searchBar{
+        width: 80%;
+    }
+    .header_options{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 1em;
+    }
+    .header_option{
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        border: none;
+    }
+}
+@media (min-width: 800px){
+    .header_option{
+        width: 50px;
+        height: 50px;
+        aspect-ratio: 1;    
+    }
+}

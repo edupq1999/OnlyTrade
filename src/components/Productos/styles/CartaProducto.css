@@ -21,6 +21,7 @@
     height: 120px;
     margin: 0 0 5px 0;
     object-fit: cover;
+    border-radius: 15px 15px 0 0;
     border-bottom: 1px solid rgba(138, 138, 138, 0.253);
 }
 .product_container_info{
@@ -65,4 +66,19 @@
 }
 .product_container_info h3{
     font-size: calc(20px + 1vw);
+}
+@media (min-width: 550px){
+    .product{
+        min-width: 250px;
+        height: 300px;
+    }
+    .product_img{
+        min-width: 250px;
+    }
+    .product_container{
+        height: 90%;
+    }
+    .product_buttons{
+        height: 10%;
+    }
 }

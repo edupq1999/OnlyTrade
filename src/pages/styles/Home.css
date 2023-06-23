@@ -1,0 +1,14 @@
+.shop_section{
+    width: 95%;
+    margin: 10px auto;
+}
+.shop_section_category{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.shop_section_more{
+    min-width: 60px;
+    margin-top: 10px;
+    color: blue;
+}

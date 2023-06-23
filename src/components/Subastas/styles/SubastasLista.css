@@ -1,0 +1,8 @@
+.subata_lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    padding: 20px 0;
+}

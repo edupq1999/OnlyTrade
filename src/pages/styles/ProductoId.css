@@ -1,0 +1,29 @@
+.productoId{
+    width: 90%;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.productoId_img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.productoId_container_info{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 10px;
+}
+.productoId_button{
+    width: 50%;
+    height: 35px;
+}

@@ -1,0 +1,41 @@
+.productSubasta{
+    max-width: 300px;
+    padding: 20px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.productSubasta_container{
+    margin-bottom: 20px;
+}
+.productSubasta_img{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+.productSubasta_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.productSubasta_button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 1.5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: blue;
+    color: orange;
+}
+.productSubasta_name,
+.productSubasta_container_info{
+    padding: 0 10px;
+}

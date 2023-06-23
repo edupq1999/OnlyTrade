@@ -1,0 +1,18 @@
+.productF{
+    max-width: 150px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.productF_img{
+    display: block;
+    width: 150px;
+    height: 80px;
+    margin: 0 0 5px 0;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.253);
+}

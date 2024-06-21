@@ -2,7 +2,7 @@ const products = [
     {
         id: 1,
         nombreProducto: "Camisa",
-        precio: 20,
+        precio: 20.00,
         stock: 10,
         descripcionProducto: "Camisa de algodón",
         categoriasProducto: ["prendas"],
@@ -11,7 +11,7 @@ const products = [
     {
         id: 2,
         nombreProducto: "Mesa de centro",
-        precio: 150,
+        precio: 150.00,
         stock: 5,
         descripcionProducto: "Mesa de madera para el salón",
         categoriasProducto: ["hogar"],
@@ -20,7 +20,7 @@ const products = [
     {
         id: 3,
         nombreProducto: "Teléfono móvil",
-        precio: 500,
+        precio: 500.00,
         stock: 8,
         descripcionProducto: "Teléfono inteligente con pantalla táctil",
         categoriasProducto: ["tecnologia"],
@@ -29,7 +29,7 @@ const products = [
     {
         id: 4,
         nombreProducto: "Pantalones",
-        precio: 35,
+        precio: 35.00,
         stock: 15,
         descripcionProducto: "Pantalones de mezclilla",
         categoriasProducto: ["prendas"],
@@ -38,7 +38,7 @@ const products = [
     {
         id: 5,
         nombreProducto: "Lámpara de mesa",
-        precio: 50,
+        precio: 50.00,
         stock: 3,
         descripcionProducto: "Lámpara de mesa con base de cerámica",
         categoriasProducto: ["hogar"],
@@ -47,7 +47,7 @@ const products = [
     {
         id: 6,
         nombreProducto: "Smartwatch",
-        precio: 200,
+        precio: 200.00,
         stock: 10,
         descripcionProducto: "Reloj inteligente con seguimiento de actividad",
         categoriasProducto: ["tecnologia"],
@@ -56,7 +56,7 @@ const products = [
     {
         id: 7,
         nombreProducto: "Blusa",
-        precio: 25,
+        precio: 25.00,
         stock: 12,
         descripcionProducto: "Blusa de seda",
         categoriasProducto: ["prendas"],
@@ -65,7 +65,7 @@ const products = [
     {
         id: 8,
         nombreProducto: "Cojín decorativo",
-        precio: 30,
+        precio: 30.00,
         stock: 6,
         descripcionProducto: "Cojín con estampado floral",
         categoriasProducto: ["hogar"],
@@ -74,7 +74,7 @@ const products = [
     {
         id: 9,
         nombreProducto: "Auriculares inalámbricos",
-        precio: 80,
+        precio: 80.00,
         stock: 7,
         descripcionProducto: "Auriculares Bluetooth con cancelación de ruido",
         categoriasProducto: ["tecnologia"],
@@ -83,7 +83,7 @@ const products = [
     {
         id: 10,
         nombreProducto: "Vestido",
-        precio: 50,
+        precio: 50.00,
         stock: 9,
         descripcionProducto: "Vestido elegante de noche",
         categoriasProducto: ["prendas"],
@@ -92,7 +92,7 @@ const products = [
     {
         id: 11,
         nombreProducto: "Silla de escritorio",
-        precio: 120,
+        precio: 120.00,
         stock: 4,
         descripcionProducto: "Silla ergonómica para la oficina",
         categoriasProducto: ["hogar"],
@@ -101,7 +101,7 @@ const products = [
     {
         id: 13,
         nombreProducto: "Zapatos deportivos",
-        precio: 60,
+        precio: 60.00,
         stock: 20,
         descripcionProducto: "Zapatos cómodos para hacer ejercicio",
         categoriasProducto: ["prendas"],
@@ -110,7 +110,7 @@ const products = [
     {
         id: 14,
         nombreProducto: "Cafetera",
-        precio: 80,
+        precio: 80.00,
         stock: 8,
         descripcionProducto: "Cafetera de acero inoxidable",
         categoriasProducto: ["hogar"],
@@ -119,7 +119,7 @@ const products = [
     {
         id: 15,
         nombreProducto: "Laptop",
-        precio: 1000,
+        precio: 1000.00,
         stock: 5,
         descripcionProducto: "Laptop con procesador Intel y 8 GB de RAM",
         categoriasProducto: ["tecnologia"],
@@ -128,7 +128,7 @@ const products = [
     {
         id: 16,
         nombreProducto: "Chaqueta",
-        precio: 75,
+        precio: 75.00,
         stock: 12,
         descripcionProducto: "Chaqueta de cuero para hombre",
         categoriasProducto: ["prendas"],
@@ -137,7 +137,7 @@ const products = [
     {
         id: 17,
         nombreProducto: "Set de cuchillos",
-        precio: 120,
+        precio: 120.00,
         stock: 6,
         descripcionProducto: "Set de cuchillos de acero inoxidable",
         categoriasProducto: ["hogar"],
@@ -146,7 +146,7 @@ const products = [
     {
         id: 18,
         nombreProducto: "Altavoz Bluetooth",
-        precio: 50,
+        precio: 50.00,
         stock: 10,
         descripcionProducto: "Altavoz portátil con conexión inalámbrica",
         categoriasProducto: ["tecnologia"],
@@ -155,7 +155,7 @@ const products = [
     {
         id: 19,
         nombreProducto: "Vestido de fiesta",
-        precio: 90,
+        precio: 90.00,
         stock: 7,
         descripcionProducto: "Vestido elegante para ocasiones especiales",
         categoriasProducto: ["prendas"],
@@ -164,7 +164,7 @@ const products = [
     {
         id: 20,
         nombreProducto: "Set de sábanas",
-        precio: 40,
+        precio: 40.00,
         stock: 9,
         descripcionProducto: "Set de sábanas de algodón para cama matrimonial",
         categoriasProducto: ["hogar"],
@@ -173,7 +173,7 @@ const products = [
     {
         id: 21,
         nombreProducto: "Monitor de computadora",
-        precio: 250,
+        precio: 250.00,
         stock: 4,
         descripcionProducto: "Monitor de 24 pulgadas con resolución Full HD",
         categoriasProducto: ["tecnologia"],

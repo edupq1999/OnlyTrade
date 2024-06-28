@@ -1,83 +1,117 @@
 .carrito {
-    display: none;
     position: fixed;
     right: 0;
     top: 0;
     width: 300px;
-    height: 100%;
+    height: 100vh;
     background-color: white;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
-    padding: 20px;
-    overflow-y: auto;
-    z-index: 1000;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
 }
 
 .carrito.visible {
-    display: block;
     transform: translateX(0);
 }
 
 .carrito-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 10px;
 }
 
 .carrito h2 {
-    margin-top: 0;
+    margin: 20px;
 }
 
 .carrito ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .carrito li {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .carrito-product-img {
     width: 50px;
     height: 50px;
+    object-fit: cover;
     margin-right: 10px;
 }
 
+.carrito-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carrito-quantity button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.carrito-quantity span {
+    width: 20px;
+    text-align: center;
+}
+
+.carrito-subtotal {
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid #ddd;
+}
+
 .carrito-buy {
-    display: block;
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: blue;
     color: white;
     border: none;
     cursor: pointer;
-    text-align: center;
-    margin-top: 20px;
+    position: sticky;
+    bottom: 0;
 }
 
 .modal {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1001;
 }
 
 .modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
     text-align: center;
+}
+
+.modal-content p {
+    margin: 0 0 10px;
+}
+
+.modal-content button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }

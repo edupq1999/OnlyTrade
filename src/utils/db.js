@@ -51,7 +51,7 @@ const products = [
         stock: 10,
         descripcionProducto: "Reloj inteligente con seguimiento de actividad",
         categoriasProducto: ["tecnologia"],
-        imagen: "https://tendencybook.com/wp-content/uploads/2021/07/smart-1.jpg"
+        imagen: "https://m.media-amazon.com/images/I/61f4SZAhohL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
         id: 7,
